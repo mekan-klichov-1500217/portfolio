@@ -1,0 +1,117 @@
+/* Styles for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg-gradient.jpg);
+}
+#wlc {
+    width: 1000px;
+    height: 100px;
+    size: 100px;
+    padding: 10px;
+    color:rgb(0, 31, 69);
+    font-size:150px;
+    text-align: center;
+    
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Page Content */
+img{
+    margin: 20px;
+    padding: 5px;
+    border: 5px solid greenyellow;
+    border-radius: 500px;
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.links {
+    border: none 5px;
+    background-color: cyan;
+    width: 100px;
+    height: fit-content;
+    color: cadetblue;
+    text-align: left;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    line-height: 30px;
+
+    padding: 10px;
+}
+
+.links:link {
+    color: blue;
+}
+
+.links:visited{
+    color:blueviolet;
+}
+
+.links:hover{
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 3px;
+    background-color: aqua;
+    color: black;
+}
+
+
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#changeColorButton {
+    background-color: rgb(0, 31, 69);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
